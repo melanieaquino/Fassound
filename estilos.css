@@ -1,0 +1,254 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: clash display light ;
+}
+
+body {
+    font-family:clash display;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #222;
+
+}
+main {
+    background-color: #fff;
+    
+}
+
+header {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+    
+}
+
+nav > img {
+    height: 250px;
+    margin-left: 125px;
+   
+}
+
+nav > ul {
+    list-style: none;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    
+    
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #A7B7CB;
+    font-size: 25px;
+}
+
+#inicio {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #A7B7CB;
+}
+
+#inicio h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#inicio > p {
+    text-align: center;
+    max-width: 600px;
+    background-color:#A7B7CB;
+    color: #fff;
+    font-size: 20px;
+}
+
+#inicio img {
+    height: 100%;
+   
+}
+
+#palabras >ul >li {
+    background-color: #fff;
+    list-style: none;
+}
+
+#personalidad {
+    background-color: #fff;
+    margin: 150px 150px 0 0;
+}
+
+#contenedor-personalizadas {
+   margin: 20px 120px ;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.imagenes-personalizadas > img {
+    position: relative;
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 60px;
+    padding: 25px 10px;
+}
+
+.imagenes-2 > img {
+    position: relative;
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 60px;
+    padding: 25px 35px
+
+}
+
+.texto h1 {
+    position: relative;
+    text-align: right;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 1.2;
+    padding: 10px 60px;
+    color: #A7B7CB;
+   
+}    
+
+.texto > p {
+    text-align: left;
+    margin-left: auto;
+    width: 650px;
+    color: #fff;
+    background-color: #A7B7CB;
+    padding: 25px 35px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+#contenedor-medio {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #A7B7CB;
+        top: 60px;
+        line-height: 1.2;
+        padding: 0px 90px;
+        
+}
+
+.texto-medio > h2{
+    font-size:30px;
+    padding: 50px;
+    color: #fff;
+    
+    
+}
+
+.texto2-medio{
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+#contenedor-mitad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    
+}
+h3 {
+    position: absolute;
+    top: 1550px;       /* distancia desde arriba */
+    left: 380px;      /* distancia desde la izquierda */
+    color: #A7B7CB;    /* o el color que se vea bien sobre tu imagen */
+    font-size: 25px; /* ajustá según tu diseño */
+    background-color: rgba(255, 255, 255, 0.5); /* opcional: fondo semitransparente */
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5)
+  
+
+}
+
+.parrafo-mitad{
+    position: absolute;
+    top: 1630px;
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    margin-left:15px;
+    max-width: 300px;
+    padding:0 10px;
+    text-shadow: 2px 2px 5px black;
+   
+
+}
+.mitad > img{
+    margin-top: 150px;
+}
+
+footer {
+    background-color: #A7B7CB;
+    color: #fff;
+    font-family: clash display light;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 40px 0;
+}
+
+.contacto, .links, .mapa {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    line-height:4;
+
+}
+
+.contacto > h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.redes img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer-final {
+    background-color: #1c2b3a;
+    color: #cdd5df;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    align-items: center;
+    font-size: 14px;
+    width: 100%;
+
+    
+}
+
